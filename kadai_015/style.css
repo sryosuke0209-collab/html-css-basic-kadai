@@ -1,0 +1,40 @@
+/* bodyのフォント種類を、「"Arial", "Meiryo", sans-serif」 に設定 */
+body {
+    font-family: "Arial", "Meiryo", sans-serif;
+  }
+
+/* html要素のフォントサイズを20pxに設定 */
+html {
+    font-size: 20px;
+}
+
+/* スカイブルーに設定 */
+.blue {
+    color:skyblue;
+}
+
+/* ピンクに設定 */
+.pink {
+    color: rgb(255, 192, 203);
+}
+
+/* h1の装飾 */
+h1 {
+    font-family: 'Josefin Sans', sans-serif; /* Googleフォント＋総称フォント */
+    font-size: 2rem;                         /* ルート要素の2倍 */
+    letter-spacing: 1.2em;                   /* 文字間を文字サイズの1.2倍に */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3); /* 影（自由指定） */
+    border-bottom: 3px solid rgb(115, 115, 114); /* 下線（3px 実線） */
+  }
+
+/* テキストを全て中央寄せ */
+body {
+    text-align: center;
+  }
+  
+/* basic 内の p だけ太字にする */
+#basic p {
+    font-weight: bold;
+}
+  
+
