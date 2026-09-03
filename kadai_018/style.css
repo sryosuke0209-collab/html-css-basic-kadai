@@ -1,0 +1,90 @@
+/* div要素（id名「top」）に対する装飾 */
+#top {
+    width: 800px;               /* 横幅800px */
+    background-color: #dcc9f4;  /* 背景色 */
+    margin: 20px auto;          /* 上下20px＋中央配置 */
+    text-align: center;         /* 中のp要素の文字を中央揃え */
+    display: flex;              /* p要素を横並びにする */
+    justify-content: center;    /* 横並びの要素を中央に寄せる */
+  }
+  
+  /* p要素（class名「top-child」）に対する装飾 */
+  .top-child {
+    width: 20%;                 /* 親要素の20% */
+    background-color: #ffd9df;  /* 背景色 */
+    margin-right: 5px;
+  }
+
+/* middle の装飾 */
+#middle {
+    width: 800px;              /* 横幅800px */
+    height: 800px;             /* 高さ800px */
+    background-color: #ffd9df; /* 背景色 */
+    margin: 20px auto;         /* 上下20px＋中央配置 */
+    position: relative;        /* 子要素の絶対配置に必要 */
+  }
+  
+  /* middle-child 共通装飾 */
+  #middle-child01,
+  #middle-child02,
+  #middle-child03 {
+    width: 200px;              /* 横幅200px */
+    height: 200px;             /* 高さ200px */
+    background-color: #87ceeb; /* 背景色 */
+    position: absolute;        /* 親要素内で位置指定するため */
+  }
+
+/* middle-child01：上100px、左100px */
+#middle-child01 {
+    top: 100px;
+    left: 100px;
+  }
+  
+  /* middle-child02：上300px、左300px */
+  #middle-child02 {
+    top: 300px;
+    left: 300px;
+  }
+  
+  /* middle-child03：上500px、左500px */
+  #middle-child03 {
+    top: 500px;
+    left: 500px;
+  }
+
+/* bottom の装飾 */
+#bottom {
+    width: 800px;              /* 横幅800px */
+    height: 300px;             /* 高さ300px */
+    background-color: #87ceeb; /* 背景色 */
+    margin: 20px auto;         /* 中央配置 */
+    position: relative;        /* 子要素の位置指定に必要 */
+  }
+  
+  /* bottom-child 共通装飾 */
+  #bottom-child01,
+  #bottom-child02,
+  #bottom-child03 {
+    width: 400px;              /* 横幅400px */
+    height: 100px;             /* 高さ100px */
+    background-color: #e5dcf0; /* 背景色 */
+    position: absolute;        /* 親要素内で位置指定するため */
+  }
+
+  #bottom-child01 {
+    top: 0;
+    left: 0;
+  }
+
+  #bottom-child02 {
+    top: 100px;
+    left: 200px;
+  }
+
+  #bottom-child03 {
+    top: 200px;
+    left: 400px;
+  }
+  
+  
+  
